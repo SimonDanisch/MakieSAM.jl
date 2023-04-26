@@ -1,0 +1,11 @@
+[deps]
+opencv = ""
+
+    [deps.pytorch]
+    channel = "pytorch"
+
+    [deps.torchvision]
+    channel = "pytorch"
+
+[pip.deps]
+segment-anything = "@git+https://github.com/facebookresearch/segment-anything.git"
